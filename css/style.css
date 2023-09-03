@@ -1,0 +1,384 @@
+body {
+    margin: auto;
+    background-color: rgb(255, 94, 0);
+    
+    
+    
+}
+
+.partie1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    }
+    
+    .rond1 { grid-area: 1 / 1 / 2 / 7; 
+    background-color: rgb(0, 0, 0);
+    height: 50%;}
+    .rond2 { grid-area: 2 / 1 / 4 / 3; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 30% 30% 30% 30% / 50% 50% 50% 50%  ;
+    width: 100%;
+    height: 100%;
+    color: ghostwhite;
+    text-align: center;}
+    .rond3 { grid-area: 2 / 3 / 4 / 5; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 30% 30% 30% 30% / 50% 50% 50% 50%  ;
+    width: 100%;
+    height: 100%;
+    color: ghostwhite;
+    text-align: center;}
+    .rond4 { grid-area: 2 / 5 / 3 / 7; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 50% 50% 50% 50%;
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+    color: ghostwhite;
+    text-align: center;}
+    .rond5 { grid-area: 3 / 5 / 4 / 7; 
+        background-color: rgb(0, 0, 0);
+        border-radius: 20% 20% 20% 20% / 55% 55% 55% 55% ;
+        width: 100%;
+        height: 100%;
+        color: ghostwhite;
+        text-align: center;}
+    .rond6 { grid-area: 4 / 1 / 6 / 2; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 50% 50% 50% 50%;
+    width: 100%;
+    height: 80%;
+    margin-left: 0%;
+    color: ghostwhite;
+    text-align: center;
+    margin-top: 10%;}
+    .rond7 { grid-area: 4 / 2 / 6 / 3; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 50% 50% 50% 50%;
+    width: 100%;
+    height: 80%;
+    margin-left: 0%;
+    color: ghostwhite;
+    text-align: center;
+    margin-top: 10%;}
+    .rond8 { grid-area: 4 / 3 / 6 / 7; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 15% 30% 30% 15% / 50% 0% 0% 50%  ;
+    width: 100%;
+    height: 100%;
+    color: ghostwhite;
+    text-align: center;}
+
+
+
+    .partie-1-5 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .pic1 { grid-area: 1 / 1 / 3 / 3;}
+        .pic2 { grid-area: 1 / 3 / 3 / 4;}
+        .pic3 { grid-area: 1 / 4 / 3 / 5;}
+        .pic4 { grid-area: 3 / 1 / 5 / 3;}
+        .pic5 { grid-area: 3 / 3 / 5 / 5;}
+        .pic6 { grid-area: 1 / 5 / 5 / 6;
+            background: #232526;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(#000000, #414141);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient( #000000, #414141); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+
+    .more{
+        transform: rotate(-90deg);
+        color:  rgb(255, 94, 0);
+        font-size: 500px;
+        margin-left: 5%;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Questrial', sans-serif;
+        font-family: 'Roboto Flex', sans-serif;
+        font-family: 'Unica One', cursive;
+        font-size: 100px;
+        
+    }        
+
+      a{
+        text-decoration: none;
+      }
+        
+    
+    
+
+      .photorounde {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .round1 { grid-area: 1 / 1 / 2 / 2; 
+        background-image: url("https://victionary.com/cdn/shop/products/DESIGN_H_ERSBAG_web1_2048x.jpg?v=1593006504");
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;}
+        .round2 { grid-area: 1 / 2 / 2 / 3; 
+        background-image: url("https://victionary.com/cdn/shop/products/2_Tee_2048x.jpg?v=1671549882");
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;}
+        .round3 { grid-area: 1 / 3 / 2 / 4; 
+        background-image: url("https://victionary.com/cdn/shop/products/PALETTEminibundle01-00_5_8ddb6289-c3e1-423c-9160-bedb3a50ccdc_2048x.jpg?v=1672239072");
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+       
+
+        .formulaire{
+            width: 100%;
+            height: 50VH;
+            background-color: rgb(41, 41, 41);
+            margin-top: 5%;
+            margin-bottom: 10%;
+            padding-top: 5%;
+            
+
+        }
+
+        fieldset{
+
+            width: 90%;
+            margin-left: 4%;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        footer{
+            margin-top: 0%;
+        }
+
+
+        .remerciment{
+            background-color: rgb(202, 202, 202);
+            width: 100%;
+            height: 6vh;
+            margin-top: -10%;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0.1%;
+            
+        }
+
+        .merci{
+            margin-top: 0.1%;
+            width: 70%;
+            padding-left: 0.5%;
+        }        
+
+
+        h1{
+            margin: 0%;
+            margin-top: 5%;
+            padding-left: 0.5%;
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Questrial', sans-serif;
+            font-family: 'Unica One', cursive;
+        }
+
+        h2{
+            display: inline;
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Questrial', sans-serif;
+            font-family: 'Unica One', cursive;
+            margin-left: 50%;
+        }
+
+        
+        
+        .texte2{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: xx-large;
+color: rgb(255, 94, 0);
+transform: rotate(-90deg);        
+}
+        
+        .texte3{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: xx-large;
+color: rgb(255, 94, 0);
+text-align: center;
+        }
+
+        .texte4{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: xx-large;
+color: rgb(255, 94, 0);
+padding-top: 25%;
+padding-bottom: 25%;
+text-align: center;
+transform: rotate(-90deg);
+        }
+
+        .texte5{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: xx-large;
+color: rgb(255, 94, 0);
+        }
+
+        .texte6{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: xx-large;
+color: rgb(255, 94, 0);
+padding-top: 70%;
+        }
+
+        .texte7{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: xx-large;
+color: rgb(255, 94, 0);
+        }
+
+        .texte8{
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-size: 300PX;
+margin-top: 0%;
+color: rgb(255, 94, 0);
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+
+
+
+
+.decouvre{
+font-size: 80px;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+font-weight: bold;
+margin-left: 0%;
+margin-top: 0%;
+width: 90%;
+padding-left: 0.5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+fieldset {
+    border: none;
+    background-color: rgb(255, 127, 53);
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px;
+  }
+
+.paragraphe12{
+    height: 40%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+  ul {
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Unica One', cursive;
+color: rgb(255, 127, 53);
+margin-left: 0%;
+font-size: x-large;
+width: 80%;
+padding-left: 5%;
+
+  }
+
+  li{
+    padding-left: 5%;
+    margin-left: 1%;
+    color: azure;
+    padding-top: 1%;
+    width: 80%;
+  }
